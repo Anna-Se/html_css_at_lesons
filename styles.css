@@ -5,6 +5,7 @@
 body {
     /* background: red; */
     margin: 0;
+    /* font-family: 'Poppins'; */
 }
 
 .aside {
@@ -29,12 +30,18 @@ body {
     background-color: #f6f6f6;
     margin: 0 30px;
     padding: 0 62px;
+    font-family: 'Poppins';
 }
 .services .item-title {
     text-transform: uppercase;
     color: #353a3f;
     font-size: 30px;
     text-align: center;
+}
+@media (max-width: 900px) {
+    .services {
+        flex-direction: column;
+    }
 }
 .logo {
     text-align: center;
