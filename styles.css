@@ -17,12 +17,25 @@ body {
     padding: 10px;
 }
 
-.content {
+.mainContent {
     margin-left: 150px;
     padding: 10px;
-    min-height: 200vh;
 }
-
+.services {
+    display: flex;
+}
+.services > .item {
+    border-radius: 6px;
+    background-color: #f6f6f6;
+    margin: 0 30px;
+    padding: 0 62px;
+}
+.services .item-title {
+    text-transform: uppercase;
+    color: #353a3f;
+    font-size: 30px;
+    text-align: center;
+}
 .logo {
     text-align: center;
     position: relative;
